@@ -1,1 +1,1 @@
-# C-Language-Exercises
+# C-Algorithm-Exercises
