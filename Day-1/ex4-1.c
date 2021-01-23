@@ -6,20 +6,16 @@ Test Characters: 'X', 'M', 'L'
 The reverse of XML is LMX
 -------------------------------------
 */
-#include <stdio.h>
- int main()
+#include <stdio.h> 
+ int main() 
  {
     char char1 = 'X';
     char char2 = 'M';
     char char3 = 'L';
-    char tmp = ' ';
-    
-    tmp = char3;
-    char3 = char1;
-    char1 = tmp;
 
-    printf("The reverse is %c%c%c\n",
-        char1, char2, char3);
+	printf("The reverse of %c%c%c is %c%c%c\n",
+		char1, char2, char3,
+		char3, char2, char1);
 
-    return(0);
+	return(0);
 }
